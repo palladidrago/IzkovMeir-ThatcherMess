@@ -1,7 +1,7 @@
 ﻿
 namespace IzkovMeir_ThatcherMess
 {
-    partial class idCardMaker
+    partial class IdCardMaker
     {
         /// <summary>
         /// Required designer variable.
@@ -44,6 +44,7 @@ namespace IzkovMeir_ThatcherMess
             this.photoPictureBox = new System.Windows.Forms.PictureBox();
             this.saveToImgButton = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.backColorButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.photoPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
@@ -158,7 +159,7 @@ namespace IzkovMeir_ThatcherMess
             // 
             this.saveToImgButton.Enabled = false;
             this.saveToImgButton.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.saveToImgButton.Location = new System.Drawing.Point(224, 132);
+            this.saveToImgButton.Location = new System.Drawing.Point(250, 132);
             this.saveToImgButton.Name = "saveToImgButton";
             this.saveToImgButton.Size = new System.Drawing.Size(157, 96);
             this.saveToImgButton.TabIndex = 10;
@@ -167,12 +168,24 @@ namespace IzkovMeir_ThatcherMess
             this.saveToImgButton.Visible = false;
             this.saveToImgButton.Click += new System.EventHandler(this.saveToImgButton_Click);
             // 
-            // idCardMaker
+            // backColorButton
+            // 
+            this.backColorButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.backColorButton.Location = new System.Drawing.Point(92, 132);
+            this.backColorButton.Name = "backColorButton";
+            this.backColorButton.Size = new System.Drawing.Size(140, 96);
+            this.backColorButton.TabIndex = 10;
+            this.backColorButton.Text = "Change background color";
+            this.backColorButton.UseVisualStyleBackColor = true;
+            this.backColorButton.Click += new System.EventHandler(this.backColorButton_Click);
+            // 
+            // IdCardMaker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepPink;
             this.ClientSize = new System.Drawing.Size(780, 424);
+            this.Controls.Add(this.backColorButton);
             this.Controls.Add(this.saveToImgButton);
             this.Controls.Add(this.photoPictureBox);
             this.Controls.Add(this.idLabel);
@@ -184,7 +197,7 @@ namespace IzkovMeir_ThatcherMess
             this.Controls.Add(this.birthdayPresentLabel);
             this.Controls.Add(this.dateTimePicker1);
             this.Font = new System.Drawing.Font("Comic Sans MS", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Name = "idCardMaker";
+            this.Name = "IdCardMaker";
             this.Text = "Shucks, what a mess this is";
             ((System.ComponentModel.ISupportInitialize)(this.photoPictureBox)).EndInit();
             this.ResumeLayout(false);
@@ -209,5 +222,6 @@ namespace IzkovMeir_ThatcherMess
         private System.Windows.Forms.PictureBox photoPictureBox;
         private System.Windows.Forms.Button saveToImgButton;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
+        private System.Windows.Forms.Button backColorButton;
     }
 }

@@ -20,7 +20,7 @@ namespace IzkovMeir_ThatcherMess
         private void Mess_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new idCardMaker().ShowDialog();
+            new IdCardMaker().ShowDialog();
             this.Close();  
 
 

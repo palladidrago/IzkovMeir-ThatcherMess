@@ -17,7 +17,7 @@ namespace IzkovMeir_ThatcherMess
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Start());
+            Application.Run(new IdCardMaker());
         }
     }
 }

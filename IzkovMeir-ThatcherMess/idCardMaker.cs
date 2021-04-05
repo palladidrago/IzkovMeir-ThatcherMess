@@ -9,9 +9,9 @@ using System.Drawing.Imaging;
 
 namespace IzkovMeir_ThatcherMess
 {
-    public partial class idCardMaker : Form
+    public partial class IdCardMaker : Form
     {
-        public idCardMaker() 
+        public IdCardMaker() 
         {
             InitializeComponent();
 
@@ -92,6 +92,7 @@ namespace IzkovMeir_ThatcherMess
 
         private void saveToImgButton_Click(object sender, EventArgs e)
         {
+            backColorButton.Visible = false;
             saveFileDialog1.Filter = "pics (*.png)|*.png|pics (*.jpg)|*.jpg|All files (*.*)|*.*";
             saveFileDialog1.ShowDialog();
             using (Bitmap bmp = new Bitmap(this.Width, this.Height))
@@ -99,6 +100,14 @@ namespace IzkovMeir_ThatcherMess
                 this.DrawToBitmap(bmp, new Rectangle(Point.Empty, bmp.Size));
                 bmp.Save(saveFileDialog1.FileName+".png", ImageFormat.Png); 
             }
+            backColorButton.Visible = true;
+
+        }
+
+        private void backColorButton_Click(object sender, EventArgs e)
+        {
+            colorDialog1.ShowDialog();
+            this.BackColor = colorDialog1.Color;
         }
     }
 }

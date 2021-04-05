@@ -7,10 +7,7 @@
     <Compile Update="IdForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MapZone.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="idCardMaker.cs">
+    <Compile Update="IdCardMaker.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Name maker.cs">
