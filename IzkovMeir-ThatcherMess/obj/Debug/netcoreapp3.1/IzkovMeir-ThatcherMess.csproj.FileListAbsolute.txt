@@ -5,7 +5,6 @@ C:\Users\palla\Documents\Coding\Winforms\IzkovMeir-ThatcherMess\IzkovMeir-Thatch
 C:\Users\palla\Documents\Coding\Winforms\IzkovMeir-ThatcherMess\IzkovMeir-ThatcherMess\bin\Debug\netcoreapp3.1\IzkovMeir-ThatcherMess.dll
 C:\Users\palla\Documents\Coding\Winforms\IzkovMeir-ThatcherMess\IzkovMeir-ThatcherMess\bin\Debug\netcoreapp3.1\IzkovMeir-ThatcherMess.pdb
 C:\Users\palla\Documents\Coding\Winforms\IzkovMeir-ThatcherMess\IzkovMeir-ThatcherMess\obj\Debug\netcoreapp3.1\IzkovMeir-ThatcherMess.csprojAssemblyReference.cache
-C:\Users\palla\Documents\Coding\Winforms\IzkovMeir-ThatcherMess\IzkovMeir-ThatcherMess\obj\Debug\netcoreapp3.1\IzkovMeir_ThatcherMess.Start.resources
 C:\Users\palla\Documents\Coding\Winforms\IzkovMeir-ThatcherMess\IzkovMeir-ThatcherMess\obj\Debug\netcoreapp3.1\IzkovMeir-ThatcherMess.csproj.GenerateResource.cache
 C:\Users\palla\Documents\Coding\Winforms\IzkovMeir-ThatcherMess\IzkovMeir-ThatcherMess\obj\Debug\netcoreapp3.1\IzkovMeir-ThatcherMess.AssemblyInfoInputs.cache
 C:\Users\palla\Documents\Coding\Winforms\IzkovMeir-ThatcherMess\IzkovMeir-ThatcherMess\obj\Debug\netcoreapp3.1\IzkovMeir-ThatcherMess.AssemblyInfo.cs
